@@ -1,0 +1,180 @@
+/*CSS file for Sissi's Webpage*/
+
+/*Formating the title*/
+h1.title{
+	font-size: 64px;
+	color: white;
+	font-weight: bold;
+	padding: 130px;
+	text-align: center;
+	margin: 0px;
+}
+
+h1#home-title{
+	background-image: url("images/title-background.jpg");
+}
+
+h1#i-title{
+	background-image: url("images/interests-background.jpg");
+}
+
+h1#edu-title{
+	background-image: url("images/education-background.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+h1#fav-title{
+	background-image: url("images/favs-background.jpg")
+}
+
+/*Formatting for the buttons*/
+.menu a{
+	float: left;
+	display: block;
+	padding: 14px 16px;
+	color: #f3f4f5;
+	text-decoration: none;
+	font-size: 24px;
+
+}
+
+.menu a:hover{
+	color: #c0c0c0;
+}
+
+/*Formatting for introduction*/
+.introduction, .fun-facts, .school{
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+img#profile{
+	float: left;
+	margin: 30px 100px 0px 20px;
+}
+
+/*Formatting for captions*/
+.caption-left, .caption{
+	font-size: 14px;
+	margin: 0px 0px 10px 50px;
+}
+
+.caption{
+	display: inline;
+	text-align: left;
+	margin-right: 200px;
+}
+
+.caption-left{
+	text-align: left;
+}
+
+/*Formatting for fun facts table*/
+table.fun-facts, .fun-facts td{
+	border: 2px solid black;
+	padding: 10px;
+	text-align: center;
+	font-size: 18px;
+}
+
+.fun-facts img{
+	display: inline;
+	margin: 0px 35px 0px 30px;
+}
+
+
+/*Left and right font*/
+h3.left, h3.right{
+	font-size: 32px;
+	font-weight: normal;
+}
+
+
+/*Left align formatting*/
+h3.left{
+	text-align: left;
+}
+
+.left img{
+	float: left;
+	margin: 0px 50px 50px 25px;
+}
+
+.left-text, .right-text{
+	visibility: hidden;
+	font-size: 28px;
+}
+
+.left:hover .left-text, .right:hover .right-text{
+	visibility: visible;
+}
+
+/*Right align formatting*/
+h3.right{
+	text-align: right;
+}
+
+.right img{
+	float: right;
+	margin: 0px 25px 50px 50px;
+}
+
+.right-text{
+	visibility: hidden;
+	font-size: 28px;
+}
+
+/*Subtitles*/
+h2.subtitle{
+	text-align: center;
+	font-size: 54px;
+	margin: 10px;
+	font-weight: normal;
+	color: #003326
+}
+
+/*Bold Text*/
+.bold{
+	font-weight: bold;
+}
+
+.content{
+	font-size: 28px;
+	text-align: left;
+	margin: 10px 75px 30px 75px;
+	padding: 10px;
+	display: block;
+}
+
+/*Formatting for favorites list*/
+.favorites li{
+	padding: 10px;
+	margin-left: 50px;
+}
+
+img.favorites{
+	margin-left: 20px;
+}
+
+#mahogany{
+	color: #742700;
+}
+
+#gray{
+	color: #7285A5;
+}
+
+#pink{
+	color: #fa0087;
+}
+
+/*Formatting for button to top*/
+.footer{
+	margin: 10px 75px 30px 75px;
+}
+
+a.top{
+	font-size: 24px;
+}
+
+
